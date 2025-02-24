@@ -202,5 +202,21 @@ model_configs = {
         "models": {
             "ChatGLM3-6B": {"filename": "chatglm3-6b-rk3588-w8a8-opt-0-hybrid-ratio-0.0.rkllm"}
         }
-    }
+    },
+    "DeepSeek-R1-Distill-Qwen-1.5B": {
+        "base_config": {
+            "st_model_id": "VRxiaojie/DeepSeek-R1-Distill-Qwen-1.5B-RK3588S-RKLLM1.1.4",
+            "max_context_len": 4096,
+            "max_new_tokens": 4096,
+            "top_k": 5,
+            "top_p": 0.7,
+            "temperature": 0.7,
+            "repeat_penalty": 1.2,
+            "frequency_penalty": 0.8,
+            "system_prompt": "You are DeepSeek-R1, a large language model trained by DeepSeek. Follow the user's instructions carefully. Respond using markdown." 
+        },
+        "models": {
+            "DeepSeek-R1-Distill-Qwen-1.5B": {"filename": "deepseek-r1-1.5B-rkllm1.1.4.rkllm"}
+        }
+    }    
 }
