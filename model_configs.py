@@ -203,9 +203,9 @@ model_configs = {
             "ChatGLM3-6B": {"filename": "chatglm3-6b-rk3588-w8a8-opt-0-hybrid-ratio-0.0.rkllm"}
         }
     },
-    "DeepSeek-R1-Distill-Qwen-1.5B": {
+    "MiniCPM3-4B-RAG-LoRA": {
         "base_config": {
-            "st_model_id": "VRxiaojie/DeepSeek-R1-Distill-Qwen-1.5B-RK3588S-RKLLM1.1.4",
+            "st_model_id": "MiniCPM3-4B-RAG-LoRA-rk3588-1.1.1",
             "max_context_len": 4096,
             "max_new_tokens": 4096,
             "top_k": 5,
@@ -216,7 +216,7 @@ model_configs = {
             "system_prompt": "You are DeepSeek-R1, a large language model trained by DeepSeek. Follow the user's instructions carefully. Respond using markdown." 
         },
         "models": {
-            "DeepSeek-R1-Distill-Qwen-1.5B": {"filename": "deepseek-r1-1.5B-rkllm1.1.4.rkllm"}
+            "MiniCPM3-4B-RAG-LoRA-w8a8": {"filename": "MiniCPM3-4B-MiniCPM3-RAG-LoRA-rk3588-w8a8-opt-0-hybrid-ratio-0.0.rkllm"}
         }
     }    
 }
